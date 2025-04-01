@@ -1,0 +1,24 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #00000042; /* Color de fondo opcional */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding-top: 20px; /* Espacio en la parte superior */
+}
+
+.top-box {
+    width: 80%; /* Ajusta el ancho */
+    height: 25vh; /* Ajusta la altura */
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px; /* Bordes redondeados opcionales */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra opcional */
+}
