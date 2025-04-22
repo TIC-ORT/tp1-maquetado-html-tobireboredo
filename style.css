@@ -18,12 +18,19 @@ body {
     height: 25vh;
     background-color: rgb(255, 255, 255);
     position: relative;
+    display: flex;
+    align-items: stretch;
 }
+
 
 .inner-box {
     width: 20%;
-    height: 100%;
     background-color: #00cfff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
 }
 
 .middle-box {
@@ -60,4 +67,11 @@ body {
     width: 20%;
     height: 100%;
     background-color: #00cfff;
+}
+
+.line {
+    width: 80%;
+    height: 15%;
+    background-color: white;
+    border-radius: 4px;
 }
